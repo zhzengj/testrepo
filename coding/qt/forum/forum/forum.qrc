@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/forum">
+        <file>icon/users.png</file>
+        <file>icon/post.png</file>
+        <file>icon/reply.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<accounts>
+	<forum name="天涯" id="tianya">
+		<account name="都被注册了有没有" pwd="testtest" enable="1" />
+	</forum>
+</accounts>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<load>
+	<import file="data/accounts.xml" id="account"/>
+</load>
