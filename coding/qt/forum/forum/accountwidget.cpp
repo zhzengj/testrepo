@@ -33,11 +33,11 @@ void JAccountWidget::setupTable()
 {
 	m_model = new QStandardItemModel(this);
 	m_model->setColumnCount(5);
-	m_model->setHeaderData(0, Qt::Horizontal, "启用");
-	m_model->setHeaderData(1, Qt::Horizontal, "论坛");
-	m_model->setHeaderData(2, Qt::Horizontal, "用户名");
-	m_model->setHeaderData(3, Qt::Horizontal, "密码");
-	m_model->setHeaderData(4, Qt::Horizontal, "状态");
+	m_model->setHeaderData(0, Qt::Horizontal, QString::fromUtf16(L"启用"));
+	m_model->setHeaderData(1, Qt::Horizontal, QString::fromUtf16(L"论坛"));
+	m_model->setHeaderData(2, Qt::Horizontal, QString::fromUtf16(L"用户名"));
+	m_model->setHeaderData(3, Qt::Horizontal, QString::fromUtf16(L"密码"));
+	m_model->setHeaderData(4, Qt::Horizontal, QString::fromUtf16(L"状态"));
 
 	m_ui.tableView->setModel(m_model);
 	m_ui.tableView->horizontalHeader()->setStretchLastSection(true);

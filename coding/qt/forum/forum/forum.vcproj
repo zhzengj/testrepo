@@ -91,7 +91,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
-			CharacterSet="0"
+			CharacterSet="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -785,7 +785,7 @@
 		/>
 		<Global
 			Name="QtVersion Win32"
-			Value="4.7.3"
+			Value="qt-src-4.7.3"
 		/>
 		<Global
 			Name="RccDir"
