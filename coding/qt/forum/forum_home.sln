@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcproj", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "browser", "browser\browser.vcproj", "{FC2DAEB8-A20F-4CDA-AF16-BADD4615EE06}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "weather", "..\weather\weather.vcproj", "{C4048964-6FAB-4701-9799-90E7317DCAB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -23,6 +25,10 @@ Global
 		{FC2DAEB8-A20F-4CDA-AF16-BADD4615EE06}.Debug|Win32.Build.0 = Debug|Win32
 		{FC2DAEB8-A20F-4CDA-AF16-BADD4615EE06}.Release|Win32.ActiveCfg = Release|Win32
 		{FC2DAEB8-A20F-4CDA-AF16-BADD4615EE06}.Release|Win32.Build.0 = Release|Win32
+		{C4048964-6FAB-4701-9799-90E7317DCAB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4048964-6FAB-4701-9799-90E7317DCAB8}.Debug|Win32.Build.0 = Debug|Win32
+		{C4048964-6FAB-4701-9799-90E7317DCAB8}.Release|Win32.ActiveCfg = Release|Win32
+		{C4048964-6FAB-4701-9799-90E7317DCAB8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
