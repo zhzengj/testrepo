@@ -2,6 +2,7 @@
 #define WEATHER_H
 
 #include <QtGui/QWidget>
+#include <QtGui/QSystemTrayIcon>
 #include "ui_weather.h"
 
 class weather : public QWidget
@@ -21,5 +22,11 @@ class ZWeatherTrayIcon: public QSystemTrayIcon
 	Q_OBJECT
 public:
 	ZWeatherTrayIcon(QObject *parent = 0);
+
+protected slots:
+	void onActivated(QSystemTrayIcon::ActivationReason reason);
+
+protected:
+	virtual bool event(QEvent *e);
 };
 #endif // WEATHER_H

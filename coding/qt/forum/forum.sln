@@ -3,17 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "forum", "forum\forum.vcproj", "{F95879F3-CE5E-4287-BECC-D481C7F62BC6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtGui", "G:\dev\qt-src-4.7.3\src\gui\QtGui.vcproj", "{043331FC-14A4-3760-8F93-5934995D87AD}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtCore", "G:\dev\qt-src-4.7.3\src\corelib\QtCore.vcproj", "{4CCD9681-13C8-3CBE-B502-1A733ED2A431}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtXml", "G:\dev\qt-src-4.7.3\src\xml\QtXml.vcproj", "{535E6ABF-0444-3023-95FE-E8343D2E3333}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcproj", "{1AAEF30C-7411-4A56-9F1E-3EB82B5578DD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtNetwork", "G:\dev\qt-src-4.7.3\src\network\QtNetwork.vcproj", "{6653022C-F768-3E05-B984-56A3B8748A74}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtWebKit", "G:\dev\qt-src-4.7.3\src\3rdparty\webkit\WebCore\QtWebKit.vcproj", "{98D8D461-A063-3C84-B596-42156BE214B3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "weather", "..\weather\weather.vcproj", "{C4048964-6FAB-4701-9799-90E7317DCAB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,30 +17,14 @@ Global
 		{F95879F3-CE5E-4287-BECC-D481C7F62BC6}.Debug|Win32.Build.0 = Debug|Win32
 		{F95879F3-CE5E-4287-BECC-D481C7F62BC6}.Release|Win32.ActiveCfg = Release|Win32
 		{F95879F3-CE5E-4287-BECC-D481C7F62BC6}.Release|Win32.Build.0 = Release|Win32
-		{043331FC-14A4-3760-8F93-5934995D87AD}.Debug|Win32.ActiveCfg = Debug|Win32
-		{043331FC-14A4-3760-8F93-5934995D87AD}.Debug|Win32.Build.0 = Debug|Win32
-		{043331FC-14A4-3760-8F93-5934995D87AD}.Release|Win32.ActiveCfg = Release|Win32
-		{043331FC-14A4-3760-8F93-5934995D87AD}.Release|Win32.Build.0 = Release|Win32
-		{4CCD9681-13C8-3CBE-B502-1A733ED2A431}.Debug|Win32.ActiveCfg = Debug|Win32
-		{4CCD9681-13C8-3CBE-B502-1A733ED2A431}.Debug|Win32.Build.0 = Debug|Win32
-		{4CCD9681-13C8-3CBE-B502-1A733ED2A431}.Release|Win32.ActiveCfg = Release|Win32
-		{4CCD9681-13C8-3CBE-B502-1A733ED2A431}.Release|Win32.Build.0 = Release|Win32
-		{535E6ABF-0444-3023-95FE-E8343D2E3333}.Debug|Win32.ActiveCfg = Debug|Win32
-		{535E6ABF-0444-3023-95FE-E8343D2E3333}.Debug|Win32.Build.0 = Debug|Win32
-		{535E6ABF-0444-3023-95FE-E8343D2E3333}.Release|Win32.ActiveCfg = Release|Win32
-		{535E6ABF-0444-3023-95FE-E8343D2E3333}.Release|Win32.Build.0 = Release|Win32
 		{1AAEF30C-7411-4A56-9F1E-3EB82B5578DD}.Debug|Win32.ActiveCfg = Debug|Win32
 		{1AAEF30C-7411-4A56-9F1E-3EB82B5578DD}.Debug|Win32.Build.0 = Debug|Win32
 		{1AAEF30C-7411-4A56-9F1E-3EB82B5578DD}.Release|Win32.ActiveCfg = Release|Win32
 		{1AAEF30C-7411-4A56-9F1E-3EB82B5578DD}.Release|Win32.Build.0 = Release|Win32
-		{6653022C-F768-3E05-B984-56A3B8748A74}.Debug|Win32.ActiveCfg = Debug|Win32
-		{6653022C-F768-3E05-B984-56A3B8748A74}.Debug|Win32.Build.0 = Debug|Win32
-		{6653022C-F768-3E05-B984-56A3B8748A74}.Release|Win32.ActiveCfg = Release|Win32
-		{6653022C-F768-3E05-B984-56A3B8748A74}.Release|Win32.Build.0 = Release|Win32
-		{98D8D461-A063-3C84-B596-42156BE214B3}.Debug|Win32.ActiveCfg = Debug|Win32
-		{98D8D461-A063-3C84-B596-42156BE214B3}.Debug|Win32.Build.0 = Debug|Win32
-		{98D8D461-A063-3C84-B596-42156BE214B3}.Release|Win32.ActiveCfg = Release|Win32
-		{98D8D461-A063-3C84-B596-42156BE214B3}.Release|Win32.Build.0 = Release|Win32
+		{C4048964-6FAB-4701-9799-90E7317DCAB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4048964-6FAB-4701-9799-90E7317DCAB8}.Debug|Win32.Build.0 = Debug|Win32
+		{C4048964-6FAB-4701-9799-90E7317DCAB8}.Release|Win32.ActiveCfg = Release|Win32
+		{C4048964-6FAB-4701-9799-90E7317DCAB8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

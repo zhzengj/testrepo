@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="weather">
+    <qresource prefix="/weather">
+        <file>Resources/weather.gif</file>
     </qresource>
 </RCC>
