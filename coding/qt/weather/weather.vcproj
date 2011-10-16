@@ -172,6 +172,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\net.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\stdafx.cpp"
 				>
 				<FileConfiguration
@@ -201,6 +205,10 @@
 			Filter="h"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath=".\net.h"
+				>
+			</File>
 			<File
 				RelativePath=".\stdafx.h"
 				>
